@@ -3,10 +3,10 @@ def prime_number(num):
     if num >1:
         for i in range(2,num):
             if num%i == 0:
-                result = "Not Prime"
+                result = "Not Prime Number"
                 break
         else:
-            result = "Prime"
+            result = "Prime Number"
     return result
 
 
