@@ -2,13 +2,14 @@
 def prime_number(num):
     if num >1:
         for i in range(2,num):
-            if num%i==0:
+            if num%i == 0:
                 result = "Not Prime"
                 break
         else:
             result = "Prime"
-    print(result)
+    return result
 
 
 num = int(input("enter the number"))
-prime_number(num)
+r = prime_number(num)
+print(r)
