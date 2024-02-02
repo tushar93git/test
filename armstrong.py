@@ -14,3 +14,5 @@ def armstrong(num):
     
 num = 153
 armstrong(num)
+
+# output:Armstrong
