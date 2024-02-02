@@ -7,6 +7,7 @@ def armstrong(num):
         result = result + digit**p
         num = num//10
     if result == new:
+<<<<<<< HEAD
         print("Armstrong")
     else:
         print("Not Armstrong")
@@ -14,3 +15,13 @@ def armstrong(num):
     
 num = 153
 armstrong(num)
+=======
+        return "Armstrong"
+    else:
+        return "Not Armstrong"
+    
+    
+num = 153
+a = armstrong(num)
+print(a)
+>>>>>>> thirsty
